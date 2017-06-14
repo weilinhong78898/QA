@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=  1.0, user-scalable=no" />
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			html{
+				font-size: 100px;
+			}
+			.container{
+				margin-bottom: 1rem;
+				background: url(img/bak.png) repeat-y;
+				background-size: 6.4rem;
+				width:6.4rem;
+				height: auto;
+				font-family: helvetica;
+				font-size: 0.4rem;
+			}
+			.head{
+				position: fixed;
+				left:0rem;
+				top:0rem;
+				background: #013571;
+				width:6.4rem;
+				height: 1.187rem;
+			}
+			.head .back{
+				position: relative;
+				top:0.58rem;
+				left:0.16rem;
+				width:0.42rem;
+			}
+			.head .title{
+				position: relative;
+				top:0.48rem;
+				left:2rem;
+				color:#fff;
+				font-size: 0.34rem;
+				font-family:helvetica;
+			}
+			.con{
+				width:5.7rem;
+				height: 5.32rem;
+				border-left: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+			}
+			.one,.two{
+				margin-left: 0.36rem;
+				width:6rem;
+				font-family: helvetica;
+				color: #333;
+			}
+			/*.one{*/
+			    /*margin-top:1.66rem;	*/
+			/*}*/
+			.two{
+				margin-top:0.8rem;
+			}
+			.one header,.two header{
+				font-size: 0.3rem;
+				font-weight: 700;
+				color: #df653a;
+			}
+			.one header:before,.two header:before{
+				position: relative;
+				top:-0.06rem;
+				content:"";
+	            display:inline-block;
+				width:0.3rem;
+				height:0.022rem;
+				background:#999;
+			}
+			.one header:after,.two header:after{
+				position: relative;
+				top:-0.06rem;
+				content:"";
+				display: inline-block;
+				width:4rem;
+				height: 0.022rem;
+				background: #999;
+			}
+			.one .top{
+				margin-top: 0.1rem;
+				overflow: hidden;
+				width:5.7rem;
+				height: 1rem;
+				font-size: 0.2rem;
+			}
+			.one .top ul{
+				list-style: none;
+				display: flex;
+			}
+			.one .top .add{
+				width:5.7rem;
+				height:0.06rem;
+				background: #ef4517;
+			}
+			.one .top li{
+				background: url(img/2.png) no-repeat;
+				background-size: 100%;
+				text-align: center;
+				flex: 1;
+				float: left;
+				padding: 0.1rem;
+				color: #fff;
+				font-weight: bold;
+			}
+			.one .top span{
+                position: relative;
+                top:-0.14rem;
+			}
+			.one .cont{
+				position: relative;
+				top:-0.7rem;
+				font-size: 0.2rem;
+				font-weight: 500;
+				width:5.7rem;
+				height: 1rem;
+			}
+			.one .cont ul{
+				list-style: none;
+				display: flex;
+			}
+			.one .cont li{
+				border-bottom: 1px solid #ccc;
+				flex: 1;
+				float: left;
+				height: 1rem;
+			}
+			.cont .time,.cont .js{
+				border-right:1px solid #ccc;
+			}
+			.cont .time span{
+				position: relative;
+				left:0.3rem;
+				top:0.3rem;
+			}
+			.cont .js span{
+				position: relative;
+				left:0.24rem;
+				top:0.42rem;
+			}
+			.cont .dz span{
+				position: relative;
+				left:0.46rem;
+				top:0.42rem;
+			}
+			.tip{
+				margin-top: -0.4rem;
+				font-size: 0.2rem;
+				color: #888;
+			}
+			.tip strong{
+				color: #333;
+			}
+			.two p{
+				margin-top: 0.2rem;
+				padding:0rem 0.2rem;
+				font-size: 0.22rem;
+				line-height: 0.3rem;
+				letter-spacing: 0.02rem;
+				text-indent: 0.4rem;
+			}
+			.btn{
+				position: relative;
+				left:0.42rem;
+				top:0.6rem;
+				border:none;
+				border-radius: 0.1rem;
+				background: #EF4517;
+				font-size: 0.3rem;
+				color: #fff;
+				width:5.6rem;
+				margin:0 auto;
+				padding:0.14rem 2rem;
+			}
+		</style>
+		<script type="text/javascript" src="js/public.js" ></script>
+	</head>
+	<body>
+	  <div class="container">
+	  	<!--<header class="head">-->
+			<!--<a href="licai.html"><img class="back" src="img/back.png" /></a>-->
+			<!--<span class="title">金融理财</span>-->
+		<!--</header>-->
+		<section class="one">
+			<header>
+				赚钱规则
+			</header>
+			<article class="con">
+				<div class="top">
+					<div class="add"></div>
+					<ul>
+						<li><span>买入时间</span></li>
+						<li><span>开始计算收益</span></li>
+						<li><span>收益到账</span></li>
+					</ul>
+				</div>
+				<div class="cont">
+					<ul>
+						<li class="time"><span>周一15:00至<br />周二15:00</span></li>
+						<li class="js"><span>周三开始起息</span></li>
+						<li class="dz"><span>周四凌晨</span></li>
+					</ul>
+				</div>
+				<div class="cont">
+					<ul>
+						<li class="time"><span>周二15:00至<br />周三15:00</span></li>
+						<li class="js"><span>周四开始起息</span></li>
+						<li class="dz"><span>周五凌晨</span></li>
+					</ul>
+				</div>
+				<div class="cont">
+					<ul>
+						<li class="time"><span>周三15:00至<br />周四15:00</span></li>
+						<li class="js"><span>周五开始起息</span></li>
+						<li class="dz"><span>周六凌晨</span></li>
+					</ul>
+				</div>
+				<div class="cont">
+					<ul>
+						<li class="time"><span>周四15:00至<br />周五15:00</span></li>
+						<li class="js"><span>周一开始起息</span></li>
+						<li class="dz"><span>周二凌晨</span></li>
+					</ul>
+				</div>
+				<div class="cont">
+					<ul>
+						<li class="time"><span>周五15:00至<br />下周一15:00</span></li>
+						<li class="js"><span>周二开始起息</span></li>
+						<li class="dz"><span>周三凌晨</span></li>
+					</ul>
+				</div>
+				<div class="tip">
+					<strong>备注：</strong>国家法定节假日按照周六、日计算。
+				</div>
+			</article>
+		</section>
+		<section class="two">
+			<header>
+				提现规则
+			</header>
+			<p>
+				当天买入的金额在下一个工作日方可提现，提出后直接进入APP账户余额。
+			</p>
+		</section>
+		<a href="licai.html"><input class="btn" type="button" value="返回首页" /></a>
+	  </div>
+	</body>
+</html>

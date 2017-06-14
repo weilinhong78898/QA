@@ -1,0 +1,25 @@
+.pincode-input-container {
+	display:inline-block;
+}
+.pincode-input-container input.first {
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.pincode-input-container input.last {
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+	border-left-width:0px;
+}
+.pincode-input-container input.mid {
+	border-radius:0px;
+	border-left-width:0px;
+}
+.pincode-input-text, .form-control.pincode-input-text {
+	width:35px;
+	height:35px;
+	float:left;
+	border: 1px solid #ccc;
+}
+.pincode-input-error{
+	clear:both;
+}

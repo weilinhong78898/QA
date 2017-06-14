@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>金融理财</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-pincode-input.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lc2.css">
+    <script src="js/public.js"></script>
+    <!--<script src="js/jquery-2.1.4.min.js"></script>-->
+</head>
+
+<body>
+<header id="head">
+    <span>昨日收益（元）</span>
+    <h1>0.00</h1>
+</header>
+<section>
+    <div class="first">
+        <h3>总资产</h3>
+        <span>0.00</span>
+    </div>
+    <div>
+        <ul class="list">
+            <li>
+                <div>
+                    <h3>万份收益（元/天）</h3>
+                    <span id="wsy">0.00</span>
+                </div>
+            </li>
+            <li>
+                <div id="sum">
+                    <h3>累计收益</h3>
+                    <span id="total">0.00</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="trade">
+        <button id="buy">理财买入</button>
+        <button id="sell">理财卖出</button>
+    </div>
+
+
+</section>
+<!--模态对话框-->
+<!--买入-->
+<div class="mt"id="modal1">
+    <div class="mt-dialog">
+        <div class="mt-content">
+            <h4>买入</h4>
+            <a href="#">&times;</a>
+            <form>
+                <div class="money">
+                    <span>￥</span>
+                    <input type="text" placeholder="请输入金额"/>
+                </div>
+                <p>费率0.10%，预计6月13日(星期二)以06月12日(星期一)净值确认股份</p>
+                <input type="button"  value="确认购买" id="qb">
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<!--交易密码-->
+<div class="mt"id="modal3">
+    <div class="mt-dialog">
+        <div class="mt-content">
+            <h4>请输入交易密码</h4>
+            <a href="#">&times;</a>
+                <div class="container">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <br/>
+                                <input type="password" id="pincode-input2"/>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--卖出-->
+<!--<div class="modal" id="modal2">-->
+    <!--<div class="modal-dialog">-->
+        <!--<div class="modal-content">-->
+            <!--<h4>卖出</h4>-->
+            <!--<a href="#">&times;</a>-->
+            <!--<form>-->
+                <!--<div class="money">-->
+                    <!--<span>￥</span>-->
+                    <!--<input type="text" placeholder="请输入金额" id="money2"/>-->
+                <!--</div>-->
+                <!--<p>费率0.10%，预计6月13日(星期二)以06月12日(星期一)净值确认股份</p>-->
+                <!--<input type="button"  value="确认卖出" id="qs">-->
+            <!--</form>-->
+
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<footer>
+    <div>
+        <a href="guize.html">理财规则</a>
+    </div>
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap-pincode-input.js"></script>
+<script src="js/jQuery.md5.js"></script>
+<script src="js/lc2.js"></script>
+</body>
+</html>

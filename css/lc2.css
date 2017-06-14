@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+@media screen and (min-width: 768px){
+   html{
+       font-size: 50px !important;
+   }
+    body{
+        text-align: center;
+    }
+    #head{
+        width: 100%;
+    }
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #E0E0E0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 6.4rem;
+    height: 3rem;
+    /*background-color: #F05D29;*/
+    background-color: #1B8A86;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+header h1{
+    font-size: 0.8rem;
+    padding-top: -0.1rem;
+}
+header span{
+    font-size: 0.3rem;
+    color: #FFFFF9;
+}
+section .first{
+    text-align: center;
+    height: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.first h3{
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: 100;
+    color: #999;
+}
+.first span{
+    font-size: 0.5rem;
+    color: #EA8824;
+}
+.list{
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.list li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.list li:first-child{
+    border-right: 1px solid #ccc;
+}
+.list div h3{
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: 100;
+    color: #999;
+}
+.list div span{
+    font-size: 0.4rem;
+    color: #EA8824;
+}
+.trade{
+    clear: both;
+    margin-top: 1rem;
+}
+.trade button{
+    display: inline-block;
+    width: 40%;
+    height: 0.8rem;
+    margin-left: 0.3rem;
+    /*background-color: #EE522A;*/
+    background-color: #1B8A86;
+    font-size: 0.3rem;
+    outline: none;
+    border:none;
+    border-radius: 0.4rem;
+    color: #fff;
+}
+.trade #sell{
+    border:1px solid #aaa;
+    background-color: #ccc;
+}
+footer div{
+    height: 1rem;
+    background: #f6f6f4;
+    margin-top: 1rem;
+    border-top: 1px solid transparent;
+}
+footer div a{
+    padding-top:0.1rem;
+    font-size: 0.26rem;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4rem;
+    width: 80%;
+    text-align: center;
+    height: 0.5rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    color: #de653A;
+}
+
+.mt {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .7);
+    z-index: 999;
+    display: none;
+}
+.mt-dialog {
+    width: 300px;
+    margin: 150px auto;
+}
+.mt-content {
+    background:  #fafafa;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+    position: relative;
+}
+
+.mt-content input{
+    box-sizing: border-box;
+    /*width: 100%;*/
+    margin: 6px 0;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+
+}
+.mt-content input{
+    width: 40%;
+    /*margin-left: 0.1rem;*/
+    /*margin-left: 5px;*/
+    margin-top:-0.2rem;
+    line-height: 0.3rem;
+    outline: none;
+    border: 0;
+    color: #000;
+    font-size: 0.3rem;
+}
+.money{
+    border-bottom: 2px solid #DEDEDE;
+    margin-bottom: 0.3rem;
+    line-height: 1.1;
+}
+/*.mt-content input[type=password]{*/
+    /*width: 100%;*/
+/*}*/
+#qb,#qs{
+    background-color: #1B8A86;
+    color: #CCE2E1;
+    font-size: 0.3rem;
+    width: 50%;
+    height: 0.6rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.mt-content h4 {
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #54B8B4;
+}
+.mt-content span{
+    font-size: 0.5rem;
+    color: #0A0A0A;
+}
+.mt-content p{
+    font-size: 0.2rem;
+    color: #777;
+}
+.mt-content a{
+    position: absolute;
+    top:15px;
+    right: 20px;
+    font-size: 20px;
+    color: #CBCBCB;
+}
